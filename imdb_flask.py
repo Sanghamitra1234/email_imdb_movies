@@ -86,8 +86,8 @@ def send_movies(content):
     mail = smtplib.SMTP('smtp.gmail.com', 587)
     mail.ehlo()
     mail.starttls()
-    mail.login('cosmicmess.123@gmail.com', 'kalhonaho4567')
-    mail.sendmail('cosmicmess.123@gmail.com', 'wtmawpy@gmail.com', content)
+    mail.login('sender_email_id', '********')
+    mail.sendmail('sender_email_id', 'reciever_email.id', content)
     mail.close()
 
 
