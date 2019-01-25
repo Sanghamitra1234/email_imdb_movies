@@ -1,5 +1,7 @@
 # email_imdb_movies
 
+TECH STACK = Python 3.7.1, Flask, Heroku
+
 This is an app which will email the top 50 imdb_movies with the link you click, you just have to change the sender and reciever's id . 
 This app was deployed using heroku. 
 This is a final project for wtm_automate with python.
